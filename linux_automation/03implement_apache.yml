@@ -1,6 +1,6 @@
 ---
  - name: Implement apache web server
-   hosts: chennai,mumbai
+   hosts: all
    tasks:
     
     - name: Install httpd software
